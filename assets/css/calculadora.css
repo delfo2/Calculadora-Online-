@@ -106,6 +106,19 @@
     font-weight: 900;
 }
 
+.calculadora__botoes-botao:nth-child(1):hover,
+.calculadora__botoes-botao:nth-child(2):hover,
+.calculadora__botoes-botao:nth-child(3):hover,
+.calculadora__botoes-botao:nth-child(6):hover,
+.calculadora__botoes-botao:nth-child(7):hover,
+.calculadora__botoes-botao:nth-child(8):hover,
+.calculadora__botoes-botao:nth-child(10):hover,
+.calculadora__botoes-botao:nth-child(11):hover,
+.calculadora__botoes-botao:nth-child(12):hover,
+.calculadora__botoes-botao:nth-child(15):hover{
+    background: var(--Fundo-botao-cinza);
+}
+
 .calculadora__botoes-botao:nth-child(1) {
     grid-area: botao01;
 }
