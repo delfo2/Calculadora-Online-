@@ -3,6 +3,9 @@ import { Tela } from "./atualizador/tela.js";
 const botoes = Array.from(document.querySelectorAll('[data-botao]'));
 const limpador = new Tela();
 limpador.limpaTela();
+
+console.log('olá');
+
 if (botoes) {
     for (let botao of botoes) {
         botao.addEventListener('click', e => {
